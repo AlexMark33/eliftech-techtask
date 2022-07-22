@@ -1,0 +1,31 @@
+.aside-section__items-wrapper {
+    height: 800px;
+    width: 350px;
+    padding: 30px;
+    border: 1px solid var(--main-text-color);
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.aside-section__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.aside-section__items button {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    min-height: 100px;
+    cursor: pointer;
+}
+
+.aside-section__items button:active,
+.aside-section__items button:focus {
+    background-color: lightblue;
+}
